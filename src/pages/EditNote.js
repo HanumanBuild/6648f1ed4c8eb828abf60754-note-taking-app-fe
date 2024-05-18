@@ -23,8 +23,8 @@ const EditNote = () => {
   };
 
   return (
-    <div className="container mx-auto">
-      <h1 className="text-3xl font-bold underline">Edit Note</h1>
+    <div className="container mx-auto p-4">
+      <h1 className="text-3xl font-bold underline mb-4">Edit Note</h1>
       {note && <NoteForm onSubmit={handleUpdateNote} initialData={note} />}
     </div>
   );

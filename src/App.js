@@ -10,10 +10,10 @@ function App() {
   return (
     <Router>
       <div className="App">
-        <header className="App-header">
-          <h1 className="text-3xl font-bold underline">Note Taking App</h1>
+        <header className="bg-blue-600 text-white p-4">
+          <h1 className="text-3xl font-bold">Note Taking App</h1>
         </header>
-        <main className="container mx-auto">
+        <main className="container mx-auto p-4">
           <Switch>
             <Route exact path="/" component={Home} />
             <Route path="/create" component={CreateNote} />
